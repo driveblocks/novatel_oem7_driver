@@ -138,7 +138,7 @@ namespace novatel_oem7_driver
       initializeOem7MessageUtil(*this);
 
 
-      declare_parameter<bool>("oem7_strict_receiver_init", true);
+      declare_parameter<bool>("oem7_strict_receiver_init", false);
       get_parameter("oem7_strict_receiver_init", rcvr_init_strict_);
       
       declare_parameter<bool>("oem7_publish_unknown_oem7raw", false);
